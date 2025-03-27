@@ -1,0 +1,96 @@
+{
+    "gafas": {
+        "id": 1,
+        "marca": "Brand",     
+        "tipo_montura": ["flotante", "pasta", "metálico"],       
+        "precio": 105.75
+    },
+    "proveedores": {
+        "id": 1,
+        "nombre": "Googles Associated SL",
+        "direccion": {
+            "calle": "Árbol colindante",
+            "numero": 33,
+            "piso": 3,
+            "puerta": "A",
+            "ciudad": "Bosque de Sherwood",
+            "codigo_postal": "12345",
+            "pais": "Britania",
+            "telefono": "666774455",
+            "fax": "666744557"
+        },       
+        "nif": "888443377X"
+    },
+    "venta": [{
+        "id_cliente": 1,
+        "id_empleado": 2,
+        "id_gafas": 1,
+        "fecha_venta": "1970/01/01"
+    }],    
+    "clientes": [
+    {
+        "id": 1,
+        "nombre": "Patricia",
+        "direccion": "Rambla San Quintín 30-43 4º 1ª, 08775 Peralada",
+        "telefono": "678921235",
+        "email": "patricia@example.com",
+        "fecha_registro": "2023/09/23",
+        "ultima_compra": {
+            "marca": "Brand",
+            "lente_izq": 2.3,
+            "lente_der": 2.0,
+            "montura": "metálico",
+            "color_montura": null,
+            "precio": 127.0,
+            "id_gafas": 1
+        },
+        "recomendado_por": null    
+    },
+    {
+        "id": 2,
+        "nombre": "Juan",
+        "direccion": "Calle de la Estrella 15, 1º 2ª, 28001 Madrid",
+        "telefono": "654321345",
+        "email": "juan@example.com",
+        "fecha_registro": "2023/10/12",
+        "ultima_compra": {
+            "marca": "Brand",
+            "lente_izq": 2.5,
+            "lente_der": 2.2,
+            "montura": "metálico",
+            "color_montura": "azul",
+            "proveedor": "Googles Associated SL",
+            "precio": 105.75,
+            "id_gafas": 1
+        },
+        "recomendado_por": "Patricia"
+    },
+    {
+        "id": 3,
+        "nombre": "Cliente2",
+        "direccion": "Av.Mistral 15, 08015 Barcelona",
+        "telefono": "666555444",
+        "email": "cli2@yahoo.es",
+        "fecha_registro": "2023/10/13",
+        "ultima compra": {
+            "marca": "Brand",
+            "lente_izq": 2.2,
+            "lente_der": 2.0,
+            "montura": "metálico",
+            "color_montura": "negro",
+            "proveedor": "Googles Associated SL",
+            "precio": 105.75,
+            "id_gafas": 1
+        },
+        "recomendado_por": "Juan"
+    }],
+    "empleados": [{
+        "id": 1,
+        "nombre": "Jesús"
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Ana"
+    }]   
+}

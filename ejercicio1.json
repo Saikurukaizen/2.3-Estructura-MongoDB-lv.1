@@ -1,0 +1,25 @@
+{
+    "clientes": {
+        "id": 1,
+        "nombre": "Patricia",
+        "direccion": "Right Street, 123",
+        "telefono": "678921235",
+        "email": "email@email.com",
+        "fecha_registro": "2023/09/23"
+    },
+    "gafas": {
+        "id": 1,
+        "marca": "Rayban",
+        "lente_izq": {
+            "graduacion": 2.3,
+            "color_lente": null
+        },
+        "lente_der": {
+            "graduacion": 2.0,
+            "color_lente": null
+        },       
+        "tipo_montura": "metálico",
+        "color_montura": null,      
+        "precio": 127.0
+    }    
+}
